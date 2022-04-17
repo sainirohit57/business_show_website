@@ -1,0 +1,258 @@
+/* =========== Index Page CSS ============== */
+
+/* ===== Navbar ===== */
+nav{
+    padding: 16px 0px !important;
+}
+nav ul li a{
+    font-size: 14px;
+} 
+nav ul li a:hover{
+        color: #1264fa!important;
+}
+#navbarScroll button a:hover{
+    background: #1264fa;
+    color: white;
+    transition: 0.5s;
+}
+.navbar-toggler-icon {
+    height: auto;
+    width: auto;
+}
+.modal-header, .modal-footer{
+    border: none!important;
+}
+.form-label {
+    margin-bottom: 0;
+    margin-top: 0.7rem;
+}
+
+/* ===== Banner Section ===== */
+.banner{
+    overflow: hidden;
+}
+.heading{
+	font-size: 50px;
+	color: #000839;
+}
+
+nav ul li a{
+	color: black!important;
+}
+
+nav button a{
+	    padding: 6px 20px;
+    border: 1px solid #ececec;
+    color: #1264fa;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 1.8;
+        display: inline-block;
+}
+
+.feature .col p{
+	color: rgba(0, 8, 57, 0.5);
+}
+
+.number h4{
+	    margin: 10px 0;
+}
+
+.banner-right-col{
+    position: relative;
+}
+.banner-right-col .banner-bg{
+        position: absolute;
+    width: 70%;
+    height: 70%;
+    right: -100px;
+    bottom: -80px;
+     z-index: -1; 
+    background: #dae1e7;
+    overflow: hidden;
+}
+
+.banner-right-col .banner-box{
+        background: #000839;
+    color: white;
+    position: absolute;
+    width: 100%;
+        bottom: -20px;
+    left: -50px;
+
+}
+
+/* ====== How it works ===== */
+.how-it-works-box{
+	padding: 20px 70px 0 0 ;
+}
+
+/* ===== Services ====== */
+.services {
+    background: #f8f9fa;
+    padding: 70px 0;
+}
+.services-img{
+	margin-top: -120px;
+}
+
+/* ===== Slider ===== */
+.slider img{
+    width: 70px!important;
+    border-radius: 50%;
+}
+.slider .owl-nav{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slider .owl-prev, .slider .owl-next{
+    background: #1264fa!important;
+    color: white!important;
+    width: 46px;
+    height: 46px;
+    font-size: 34px !important;
+    position: absolute;
+    transform: rotate(180deg);
+    padding-bottom: 6px!important;
+}
+.slider .owl-prev{
+    right: 0;
+}
+.slider .owl-next{
+    left: 0;
+}
+.slider .owl-dots{
+    text-align: center;
+}
+.slider .owl-dot{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.2)!important;
+    margin-right: 10px;
+}
+.slider .owl-dots .active{
+    background:  #1264fa!important;
+}
+
+/* ====== Blog ===== */
+.blog span{
+        font-size: 12px;
+    font-weight: 700;
+    color: rgba(0,8,57,.5);
+}
+.blog .blog-box{
+    background-color: white;
+        padding: 20px;
+            border-radius: 20px;
+    border-bottom-left-radius: 0;
+    transition: 0.5s ease-in-out;
+}
+.blog .blog-box:hover{
+    margin-top: -5px;
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 / 5%);
+}
+    
+/* ====== Footer ===== */
+.footer-links{
+        flex-direction: column;
+    display: flex;
+}
+.footer-links a{
+    margin-bottom: 10px;
+    color: black;
+}
+.footer-links a:hover{
+        color: #1264fa;
+}
+.social-icon i{
+        width: 48px;
+    text-align: center;
+    padding: 16px;
+    border-radius: 10px;
+    background: #f8f9fa;
+    color: #000;
+}
+.social-icon i:hover{
+        color: #1264fa;
+        transition: 0.3s;
+}
+footer .fa-heart{
+    color: #e11111;
+}
+footer span{
+    font-style: italic;
+}
+
+
+/* =========== About Page CSS ============== */
+
+.about .fa-circle{
+    text-align: center;
+        font-size: 9px;
+    color: #1264fa;
+        cursor: pointer;
+}
+.gallery img{
+    border-radius: 4px;
+}
+.gallery img:hover{
+    opacity: 0.5;
+        transition: 0.3s;
+}
+
+.about #sliderToggle{
+        display: none;
+}
+.about .slider img{
+    width: 100%!important;
+    border-radius: 0!important;
+}
+.about .slider .owl-dots{
+        position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.about .slider .owl-dot {
+    background: white!important;
+}
+.about .slider .owl-dots .active {
+    background: #1264fa!important;
+}
+.about .slider .owl-prev {
+    right: 26px;
+}
+.about .slider .owl-next {
+    left: 2px;
+}
+.about .slider .owl-prev, .about .slider .owl-next {
+    background: #fff!important;
+    color: black!important;
+}
+
+.about-content .social-icon i{
+    border-radius: 50%;
+}
+.about-content .slider .owl-nav{
+    display: none;
+}
+
+
+/* =========== Contact Page CSS ============== */
+
+.contact-section img{
+    width: 80px;
+    border-radius: 50%;
+}
+.contact-section .contact-col > div{
+    border-radius: 40px;
+    border-bottom-left-radius: 0;
+}
+.contact-section .contact-col form button{
+        padding: 10px 25px;
+    border-radius: 25px;
+}

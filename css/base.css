@@ -1,0 +1,172 @@
+/* =========== FONTS IMPORT =========== */
+@font-face {
+  font-family: "Montserrat";
+  src: url('../fonts/Montserrat/Montserrat-Bold.ttf') format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../fonts/Montserrat/Montserrat-Medium.ttf') format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../fonts/Montserrat/Montserrat-Regular.ttf') format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../fonts/Montserrat/Montserrat-Light.ttf') format("truetype");
+  font-weight: 300;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000839;
+    letter-spacing: 0.15px;
+    overflow-x: hidden;     
+}
+
+a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+}
+hr{
+        background: #99a3a7;
+}
+
+.color-blue{
+	color: #1264fa!important;
+}
+.color-dark{
+	color: rgba(0, 8, 57, 0.5);
+}
+
+form input, form textarea, form select{
+        border: 2px solid #e9ecef!important;
+}
+form input:focus, form textarea:focus, form select:focus{
+        border-color: #1264fa!important;
+    box-shadow: none!important;
+}
+
+.pt-80{
+	padding-top: 80px;
+}
+.pb-80{
+	padding-bottom: 80px;
+}
+.pt-50{
+	padding-top: 50px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.pb-30{
+    padding-bottom: 30px;
+}
+.pt-30{
+    padding-top: 30px;
+}
+
+.btn-1, .btn-2, .btn-3, .btn-4{
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    border: solid 2px #1264fa;
+    transition: 0.3s;
+        display: inline-block;
+}
+.btn-1{    
+    color: #FFFFFF !important;
+    background: #1264fa;
+}
+
+.btn-1:hover{
+        border-color: #2671fa;
+    background: #2671fa;
+}
+
+.btn-2{
+    background: transparent !important;
+    color: #FFFFFF !important;
+    border: solid 1px #FFFFFF!important;
+}
+.btn-2:hover{
+    background: #FFFFFF !important;
+    color: #ff4495 !important;
+    /*border: solid 2px #23A6F0;*/
+}
+
+
+.fs-40 {
+    font-size: 40px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fs-20{
+    font-size: 20px; 
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.lh-32{
+    line-height: 32px;
+}
+.lh-28{
+    line-height: 28px;
+}
+.lh-24{
+    line-height: 24px;
+}
+.fw-700 {
+    font-weight: 700 !important;
+}
+.fw-600{
+    font-weight: 600 !important;
+}
+.fw-500{
+    font-weight: 500 !important;
+}
+.fw-400{
+    font-weight: 400 !important;
+}
+.fw-300{
+    font-weight: 300 !important;
+}

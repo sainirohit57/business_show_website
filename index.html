@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Slider -->
+	<link rel="stylesheet" href="./css/owl.carousel.min.css" />
+
+	<!-- fonts -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/base.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+	
+	<title>Design</title>
+</head>
+<body>
+
+<main>
+	<header>		
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+		   	 	<a class="navbar-brand color-blue fw-700" href="index.html">Design</a>
+		    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+		      		<span class="navbar-toggler-icon" id="shownavbar" onclick="show()"><i class="fa fa-bars"></i></span>
+		      		<span class="navbar-toggler-icon" id="hidenavbar" onclick="hide()" style="display: none;"><i class="fa fa-times"></i></span>
+		    	</button>
+		    	<div class="collapse navbar-collapse" id="navbarScroll">
+		      		<ul class="navbar-nav me-auto my-2 m-auto my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+			        	<li class="nav-item">
+			          		<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+				        </li>
+			        	<li class="nav-item">
+			          		<a class="nav-link" href="about.html">About Page</a>
+			        	</li>
+			        	<li class="nav-item">
+			          		<a class="nav-link" href="contact.html">Contact us</a>
+			        	</li>
+		      		</ul>
+
+		      		<!-- Button trigger modal -->
+					<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  					<a href="#" class="fw-700">Login</a>
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  						<div class="modal-dialog">
+    						<div class="modal-content">
+      							<div class="modal-header">
+        							<h5 class="modal-title fw-700" id="exampleModalLabel">Login Form</h5>
+        							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      							</div>
+      							<div class="modal-body">
+      							  <form action="#">
+      							  	<div class="col-md-12">
+										<label for="email" class="form-label">Email or Phone</label>
+										<input type="text" class="form-control" id="email">
+									</div>
+									<div class="col-md-12">
+										<label for="password" class="form-label">Password</label>
+										<input type="password" class="form-control" id="password">
+										<caption><a href="#" class="fs-14">Forgot Password</a></caption>
+									</div>
+      							  </form>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-primary">Sign Up</button>
+       								<button type="button" class="btn btn-primary">Login</button>
+      							</div>
+   							</div>
+  						</div>
+					</div>
+
+		    	</div>
+	        </div>
+		</nav>
+	</header>
+
+	<!-- ===== Banner Section ===== -->
+	<section class="banner pt-80 pb-80">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-lg-5 mb-5 pt-5">
+					<div>
+						<h1 class="fw-700 heading">Create, Code, and Published.</h1>
+						<p class="lh-32 fs-18 mb-4 mt-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+					</div>
+					<a href="contact.html" class="btn-1 mb-5">Get Started</a>
+					<div class="row feature">
+						<div class="col">
+							<div></div>
+							<h3 class="fs-16 fw-700">High Quality</h3>
+							<p class="lh-24 fs-14">Far far away, behind the word mountains, far from the countries</p>
+						</div>
+						<div class="col">
+							<div></div>
+							<h3 class="fs-16 fw-700">High Quality</h3>
+							<p class="lh-24 fs-14">Far far away, behind the word mountains, far from the countries</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 mb-4">
+					<div class="banner-right-col">
+						<div class="banner-bg"></div>
+						<div>
+							<img src="./images/xhero_1.jfif">
+						</div>
+						<div class="banner-box p-5">
+							<p class="lh-28 mb-3">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.”</p>
+							<h3 class="fs-16 fw-700">Daniella Wood</h3>
+							<p>founder @ Colorlib</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ====== Achivements ====== -->
+	<section class="achivements">
+		<div class="container pt-80">
+			<div class="row g-4">
+				<div class="col-lg-3 col-md-6 text-center">
+					<div class="number">
+						<strong class="fw-700 fs-40">99.55%</strong>
+						<h4 class="fs-16 fw-400">Ratings 4.9 from user</h4>
+						<p class="color-dark">Far far away, behind the word mountains.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 text-center">
+					<div class="number">
+						<strong class="fw-700 fs-40">98,000+</strong>
+						<h4 class="fs-16 fw-400">Happy Customers</h4>
+						<p class="color-dark">Far far away, behind the word mountains.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 text-center">
+					<div class="number">
+						<strong class="fw-700 fs-40">99.99%</strong>
+						<h4 class="fs-16 fw-400">Server Up time</h4>
+						<p class="color-dark">Far far away, behind the word mountains.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 text-center">
+					<div class="number">
+						<strong class="fw-700 fs-40">1M+</strong>
+						<h4 class="fs-16 fw-400">Love by our customers</h4>
+						<p class="color-dark">Far far away, behind the word mountains.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ====== How it works ===== -->
+	<section class="how-it-works">
+		<div class="container pt-80 pb-80">
+			<div class="row">
+				<div class="col-lg-7 m-auto text-center">
+					<strong class="color-dark fs-13">How it works</strong>
+					<h2 class="fs-30 fw-700">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</h2>
+				</div>
+			</div>
+			<div class="row pt-50">
+				<div class="col-md-4">
+					<div class="how-it-works-box">
+						<div class="how-it-works-icon">
+							<span></span>
+						</div>
+						<h3 class="fs-16 fw-700">1. Create an account</h3>
+						<p class="lh-28">Connect your store, import your products, then send us your inventory.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="how-it-works-box">
+						<div class="how-it-works-icon">
+							<span></span>
+						</div>
+						<h3 class="fs-16 fw-700">2. Create new orders</h3>
+						<p class="lh-28">We store your inventory in any combination of our fulfillment centers.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="how-it-works-box">
+						<div class="how-it-works-icon">
+							<span></span>
+						</div>
+						<h3 class="fs-16 fw-700">3. Ship and track</h3>
+						<p class="lh-28">As soon as a customer places an order, we ship it from nearest fulfillment center.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== Services ====== -->
+	<section class="services">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-lg-4 mb-5">
+					<strong class="color-dark fs-13">Services</strong>
+					<h2 class="fs-30 fw-700 mb-3">Far far away, behind the word mountains</h2>
+					<p class="lh-28">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+					<ul class="mb-5">
+						<li class="lh-28">Behind the word Mountains.</li>
+						<li class="lh-28">Far far away Mountains.</li>
+						<li class="lh-28">Large language Ocean.</li>
+					</ul>
+					<a href="contact.html" class="btn-1">Get Started</a>
+				</div>
+				<div class="col-lg-6">
+					<div class="services-img">
+						<img src="./images/xhero.jfif">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Slider -->
+	<section class="slider pt-80 pb-80">
+		<div class="container">
+			<div class="row">
+				<div class="owl-carousel owl-theme">
+					<!-- Item 1 -->
+					<div class="item col-md-6 text-center m-auto">
+						<div>
+							<div class="text-center mb-5">
+								<img src="./images/slider-1.jfif" class="m-auto">
+							</div>
+							<div class="mb-3">
+								<p class="lh-28">“There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+							</div>
+							<div>
+								<h3 class="fs-14 fw-700">Adam Aderson</h3>
+								<p>Head of business development @ Colorlib</p>
+							</div>
+						</div>
+					</div>
+					<!-- Item 2 -->
+					<div class="item col-md-6 text-center m-auto">
+						<div>
+							<div class="text-center mb-5">
+								<img src="./images/slider-2.jfif" class="m-auto">
+							</div>
+							<div class="mb-3">
+								<p class="lh-28">“There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+							</div>
+							<div>
+								<h3 class="fs-14 fw-700">Adam Aderson</h3>
+								<p>Head of business development @ Colorlib</p>
+							</div>
+						</div>
+					</div>
+					<!-- Item 3 -->
+					<div class="item col-md-6 text-center m-auto">
+						<div>
+							<div class="text-center mb-5">
+								<img src="./images/slider-3.webp" class="m-auto">
+							</div>
+							<div class="mb-3">
+								<p class="lh-28">“There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+							</div>
+							<div>
+								<h3 class="fs-14 fw-700">Adam Aderson</h3>
+								<p>Head of business development @ Colorlib</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ====== Blog ===== -->
+	<section class="blog bg-light">
+		<div class="container pt-80 pb-80">
+			<div class="row">
+				<div class="col-lg-7 m-auto text-center">
+					<strong class="color-dark fs-13">Blog</strong>
+					<h2 class="fs-30 fw-700">Latest Blog Posts</h2>
+				</div>
+			</div>
+			<div class="row pt-50 g-4">
+				<div class="col-12 col-sm-6 col-md-4 col-lg">
+					<div class="blog-box">
+						<span>MAY 12TH, 2020</span>
+						<h3 class="fs-16 fw-700">Far far away, behind the word mountains</h3>
+						<p class="lh-28 fs-14 m-0">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg">
+					<div class="blog-box">
+						<span>MAY 12TH, 2020</span>
+						<h3 class="fs-16 fw-700">Far far away, behind the word mountains</h3>
+						<p class="lh-28 fs-14 m-0">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg">
+					<div class="blog-box">
+						<span>MAY 12TH, 2020</span>
+						<h3 class="fs-16 fw-700">Far far away, behind the word mountains</h3>
+						<p class="lh-28 fs-14 m-0">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg">
+					<div class="blog-box">
+						<span>MAY 12TH, 2020</span>
+						<h3 class="fs-16 fw-700">Far far away, behind the word mountains</h3>
+						<p class="lh-28 fs-14 m-0">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg">
+					<div class="blog-box">
+						<span>MAY 12TH, 2020</span>
+						<h3 class="fs-16 fw-700">Far far away, behind the word mountains</h3>
+						<p class="lh-28 fs-14 m-0">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container pt-80">
+			<div class="row justify-content-between pb-30">
+				<div class="col-lg-4">
+					<h3 class="fs-16 mb-4 fw-700">About</h3>
+					<p class="lh-28">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+					<h3 class="fs-16 mb-4 fw-700">Connect with us</h3>
+					<div class="social-icon mb-5 mb-lg-0">
+						<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+						<a href="https://www.google.com/"><i class="fab fa-chrome"></i></a>
+						<a href="https://www.behance.net/"><i class="fab fa-behance"></i></a>
+						<a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<h3 class="fs-16 mb-4 fw-700">Navigations</h3>
+					<div class="row">
+						<div class="col-6 col-md-4 mb-4 mb-md-0 footer-links">
+							<a href="index.html">Home</a>
+							<a href="index.html">Services</a>
+							<a href="index.html">Work</a>
+							<a href="index.html">Process</a>
+							<a href="about.html">About Us</a>
+						</div>
+						<div class="col-6 col-md-4 footer-links">
+							<a href="index.html">Press</a>
+							<a href="index.html">Blog</a>
+							<a href="contact.html">Contact</a>
+							<a href="index.html">Support</a>
+							<a href="index.html">Privacy</a>
+						</div>
+						<div class="col-6 col-md-4 footer-links">
+							<a href="index.html">Privacy</a>
+							<a href="index.html">FAQ</a>
+							<a href="index.html">Careers</a>
+							<a href="index.html">Process</a>
+							<a href="about.html">About Us</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row text-center pt-30 pb-30">
+				<p>Copyright &copy;2022 All rights reserved | This template is made by <i class="fa fa-heart"></i> <span> Rohit Saini</span></p>
+			</div>
+		</div>
+	</footer>
+
+</main>
+
+
+<script src="./js/bootstrap.min.js"></script>
+
+<!-- Slider js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+		integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./js/owl.carousel.min.js" data-cover></script>
+
+<script>
+		$('.owl-carousel').owlCarousel({
+				loop: true,
+				margin: 10,
+				nav: true,
+				dots: true,
+				responsive: {
+					0: {
+						items: 1
+					},
+					600: {
+						items: 1
+					},
+					1000: {
+						items: 1
+					}
+				}
+			})
+	</script>
+
+	<!-- Navbar -->
+	<script>
+		var ia = document.getElementById('shownavbar');
+		var ib = document.getElementById('hidenavbar');
+		function show() {
+			ia.style.display = "none";
+			ib.style.display = "block";
+		}
+		function hide() {
+			ia.style.display = "block";
+			ib.style.display = "none";
+		}
+	</script>
+
+</body>
+</html>

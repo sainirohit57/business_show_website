@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- fonts -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/base.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+
+	<title>Design</title>
+</head>
+<body>
+
+<main>
+	<header>
+		<nav class="navbar navbar-expand-lg">
+		  	<div class="container">
+		   	 	<a class="navbar-brand color-blue fw-700" href="index.html">Design</a>
+			   	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+			  		<span class="navbar-toggler-icon" id="shownavbar" onclick="show()"><i class="fa fa-bars"></i></span>
+		      		<span class="navbar-toggler-icon" id="hidenavbar" onclick="hide()" style="display: none;"><i class="fa fa-times"></i></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarScroll">
+			    	<ul class="navbar-nav me-auto my-2 m-auto my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+				       	<li class="nav-item">
+				       		<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+				       	</li>
+				       	<li class="nav-item">
+				       		<a class="nav-link" href="about.html">About Page</a>
+				       	</li>
+				       	<li class="nav-item">
+				       		<a class="nav-link" href="contact.html">Contact us</a>
+				       	</li>
+			      	</ul>
+			      	<!-- Button trigger modal -->
+					<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  					<a href="#" class="fw-700">Login</a>
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  						<div class="modal-dialog">
+    						<div class="modal-content">
+      							<div class="modal-header">
+        							<h5 class="modal-title fw-700" id="exampleModalLabel">Login Form</h5>
+        							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      							</div>
+      							<div class="modal-body">
+      							  <form action="#">
+      							  	<div class="col-md-12">
+										<label for="email" class="form-label">Email or Phone</label>
+										<input type="text" class="form-control" id="email">
+									</div>
+									<div class="col-md-12">
+										<label for="password" class="form-label">Password</label>
+										<input type="password" class="form-control" id="password">
+										<caption><a href="#" class="fs-14">Forgot Password</a></caption>
+									</div>
+      							  </form>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-primary">Sign Up</button>
+       								<button type="button" class="btn btn-primary">Login</button>
+      							</div>
+   							</div>
+  						</div>
+					</div>
+					
+			    </div>
+	  		</div>
+		</nav>
+	</header>
+
+	<!-- Contact Section -->
+	<section class="contact-section pt-50 pb-50">
+		<div class="container">
+			<div class="row justify-content-between">
+				<!-- Left Column -->
+				<div class="col-lg-5 contact-col mb-5 mb-lg-0">
+					<div class="bg-light py-5">
+						<div class="text-center mb-5">
+							<img src="./images/person-1.webp">
+						</div>
+						<div class="px-sm-5 mx-4 mb-5">
+							<p class="lh-28 fw-700">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.A small river named Duden flows by their place and supplies it with the necessary regelialia.”</p>
+						</div>
+						<div class="px-sm-5 mx-4">
+							<h3 class="fs-16 fw-700">Daniella Wood</h3>
+							<p>founder @ Colorlib</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Right Column -->
+				<div class="col-lg-6 contact-col">
+					<strong class="color-dark fs-13">Contact Us</strong>
+					<h2 class="fs-30 fw-700 mb-5">Let's have a talk</h2>
+					<form class="row g-4">
+						<div class="col-md-6">
+							<label for="fname" class="form-label">First Name</label>
+							<input type="text" class="form-control" id="fname">
+						</div>
+						<div class="col-md-6">
+							<label for="lname" class="form-label">Last Name</label>
+							<input type="text" class="form-control" id="lname">
+						</div>
+						<div class="col-12">
+						    <label for="email" class="form-label">Email address</label>
+						    <input type="email" class="form-control" id="email">
+						</div>
+						<div class="col-md-12">
+						    <label for="textarea" class="form-label">Message</label>
+						    <textarea type="textarea" cols="10" rows="6" id="textarea" style="width:100%;"></textarea>
+						</div>
+						<div class="col-12">
+						    <button type="submit" class="btn btn-primary">Send Message</button>
+						</div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="bg-light">
+		<div class="container pt-80">
+			<div class="row justify-content-between pb-30">
+				<div class="col-lg-4">
+					<h3 class="fs-16 mb-4 fw-700">About</h3>
+					<p class="lh-28">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+					<h3 class="fs-16 mb-4 fw-700">Connect with us</h3>
+					<div class="social-icon mb-5 mb-lg-0">
+						<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+						<a href="https://www.google.com/"><i class="fab fa-chrome"></i></a>
+						<a href="https://www.behance.net/"><i class="fab fa-behance"></i></a>
+						<a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<h3 class="fs-16 mb-4 fw-700">Navigations</h3>
+					<div class="row">
+						<div class="col-6 col-md-4 mb-4 mb-md-0 footer-links">
+							<a href="index.html">Home</a>
+							<a href="index.html">Services</a>
+							<a href="index.html">Work</a>
+							<a href="index.html">Process</a>
+							<a href="about.html">About Us</a>
+						</div>
+						<div class="col-6 col-md-4 footer-links">
+							<a href="index.html">Press</a>
+							<a href="index.html">Blog</a>
+							<a href="contact.html">Contact</a>
+							<a href="index.html">Support</a>
+							<a href="index.html">Privacy</a>
+						</div>
+						<div class="col-6 col-md-4 footer-links">
+							<a href="index.html">Privacy</a>
+							<a href="index.html">FAQ</a>
+							<a href="index.html">Careers</a>
+							<a href="index.html">Process</a>
+							<a href="about.html">About Us</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row text-center pt-30 pb-30">
+				<p>Copyright &copy;2022 All rights reserved | This template is made by <i class="fa fa-heart"></i> <span> Rohit Saini</span></p>
+			</div>
+		</div>
+	</footer>
+
+</main>
+
+
+<script src="./js/bootstrap.min.js"></script>
+
+<!-- Navbar -->
+	<script>
+		var ia = document.getElementById('shownavbar');
+		var ib = document.getElementById('hidenavbar');
+		function show() {
+			ia.style.display = "none";
+			ib.style.display = "block";
+		}
+		function hide() {
+			ia.style.display = "block";
+			ib.style.display = "none";
+		}
+	</script>
+
+</body>
+</html>
